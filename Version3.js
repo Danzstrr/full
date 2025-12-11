@@ -960,17 +960,9 @@ function sendMainMenu(chatId, username) {
       { text: "¢нαηηєℓ", url: "https://t.me/x_incrashPublic" }
     ]
   ]
- }
-};
- setTimeout(() => {
-  bot.sendAudio(chatId, fs.createReadStream("music/lagu.mp3"), {
-    title: "X-INCRASH",
-    performer: "https://t.me/Danzriel",
-    caption: `<pre> DanzOfficial </pre>`,
-    parse_mode: "HTML"
-  });
-}, 100); 
-)};
+    }
+       });
+}
 
 
 bot.on("callback_query", async (query) => {
