@@ -263,7 +263,7 @@ function startBot() {
 » Information:
 ☇ developer: t.me/Danzriel
 ☇ Name Script : X-INCRASH
-☇ Version : 4.0.0
+☇ Version : 5.0.0
 
 `));
 console.log(chalk.white(``));
